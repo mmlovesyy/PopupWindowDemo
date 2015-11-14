@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp">
+
+    <EditText
+        android:id="@+id/review_comment_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:maxLength="2000"
+        android:paddingLeft="3dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/issue_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="3dp"
+        android:gravity="bottom"
+        android:text="发送" />
+
+</LinearLayout>
